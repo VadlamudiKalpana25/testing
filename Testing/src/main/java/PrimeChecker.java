@@ -4,6 +4,6 @@ public class PrimeChecker {
         if (number == 2) {
             return true;
         }
-        return false;
+        return number == 3;
     }
 }

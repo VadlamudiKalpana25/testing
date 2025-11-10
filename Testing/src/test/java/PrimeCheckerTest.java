@@ -21,5 +21,15 @@ public class PrimeCheckerTest {
     public void test2IsNotPrime() {
         assertTrue(primeChecker.isPrime(2), "2 should be considered a prime number");
     }
+
+    @Test
+    public void test3IsNotPrime() {
+        assertTrue(primeChecker.isPrime(3), "3 should be considered a prime number");
+    }
+
+    @Test
+    public void test4IsNotPrime() {
+        assertFalse(primeChecker.isPrime(4), "4 should not be considered a prime number");
+    }
 }
 
