@@ -9,4 +9,8 @@ public class PrimeCheckerTest {
     public void test0IsNotPrime() {
         assertFalse(primeChecker.isPrime(0), "0 should not be considered a prime number");
     }
+
+    public void test1IsNotPrime() {
+        assertFalse(primeChecker.isPrime(1), "1 should not be considered a prime number");
+    }
 }
